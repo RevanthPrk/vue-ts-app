@@ -3,7 +3,8 @@ import { defineProps, defineEmits, ref } from 'vue'
 import type { ITodo } from '../models/Todo'
 const text = ref('revanth')
 const props = defineProps<{
-  todo: ITodo
+  todo: ITodo,
+  
 }>()
 
 const emit = defineEmits<{
