@@ -1,5 +1,9 @@
 {
   "welcome": "Bienvenue à Vue!",
   "language": "Langue",
-  "message": "Ceci est un message localisé"
+  "message": "Ceci est un message localisé",
+  "greetUser": "Bonjour, {name}!",
+  "unread": "Vous avez {count} message non lu | Vous avez {count} messages non lus",
+  "price": "Prix : {amount}",
+  "today": "Aujourd'hui, c'est le {date}"
 }

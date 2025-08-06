@@ -10,6 +10,32 @@ const i18n = createI18n({
     en,
     fr,
   },
+  datetimeFormats: {
+    en: {
+      short: {
+        year: 'numeric', month: 'short', day: 'numeric',
+      },
+    },
+    fr: {
+      short: {
+        year: 'numeric', month: 'short', day: 'numeric',
+      },
+    },
+  },
+  numberFormats: {
+    en: {
+      currency: {
+        style: 'currency',
+        currency: 'USD',
+      },
+    },
+    fr: {
+      currency: {
+        style: 'currency',
+        currency: 'EUR',
+      },
+    },
+  },
 })
 
 export default i18n

@@ -1,5 +1,9 @@
 {
   "welcome": "Welcome to Vue!",
   "language": "Language",
-  "message": "This is a localized message"
+  "message": "This is a localized message",
+  "greetUser": "Hello, {name}!",
+  "unread": "You have {count} unread message | You have {count} unread messages",
+  "price": "Price: {amount}",
+  "today": "Today is {date}"
 }
